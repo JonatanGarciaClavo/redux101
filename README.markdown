@@ -1,4 +1,4 @@
-# React 101
+# Redux 101
 
 ## Link
 https://rawgit.com/JonatanGarciaClavo/redux101/master/index.html
