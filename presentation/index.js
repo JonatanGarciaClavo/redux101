@@ -30,7 +30,7 @@ require("normalize.css");
 require("spectacle/lib/themes/default/index.css");
 
 const images = {
-  reactLogo: require("../assets/reactLogo.svg"),
+  reduxLogo: require("../assets/redux-logo.png"),
   fluxLogo: require("../assets/flux.png"),
   fluxFlow: require("../assets/flux-flow.png"),
   reduxFlow: require("../assets/redux-flow.png"),
@@ -55,7 +55,7 @@ export default class Presentation extends React.Component {
       <Spectacle theme={theme}>
         <Deck transition={["zoom", "slide"]} transitionDuration={500}>
           <Slide transition={["zoom"]} bgColor={bgColor}>
-            <Image width="35%" src={images.reactLogo}/>
+            <Image width="35%" src={images.reduxLogo.replace("/", "")}/>
             <Heading fit caps textColor="primary">
               Redux 101
             </Heading>
